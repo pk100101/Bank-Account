@@ -39,8 +39,6 @@ public class BankAccount {
 	
 	public String toString ()
 	{
-		return balance;
-		return accNum;
-		return name;
+		return "name: " + name + "\tbalance: " + balance + "\taccNum: "+ accNum;
 	}
 }
