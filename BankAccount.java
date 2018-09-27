@@ -6,18 +6,18 @@ public class BankAccount {
 	private double balance;
 	
 	//constructors
-	public BankAccount () 
+	public BankAccount (String n, int aN, double bal) 
 	{
-		name = "Pragnya";
-		accNum = 190404;
-		balance = 0.00;
+		name = n;
+		accNum = aN;
+		balance = bal;
 		
 	}
 	
-	public BankAccount (double startNum)
+	public BankAccount (String n, int aN)
 	{
-		name = "Pragnya";
-		accNum = 190404;
+		name = n;
+		accNum = aN;
 		balance = startNum;
 		
 	}
